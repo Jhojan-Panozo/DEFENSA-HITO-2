@@ -1,1 +1,0 @@
-Jhojan Panozo Perez
