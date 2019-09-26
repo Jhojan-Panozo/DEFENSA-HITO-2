@@ -3,7 +3,7 @@
 $nombre=$_GET['VAR_NOMBRE'];
 $apellido=$_GET['VAR_APELLIDO'];
 $edad=$_GET['VAR_EDAD'];
-$edad=21;
+$edad=22;
 $direccion=$_GET['VAR_DIRECCION'];
 $celular=$_GET['VAR_CELULAR'];
 $celular=65509404;
@@ -66,6 +66,16 @@ for($j=1;$j<=MAX_COLS;$j++)
 }
 echo '</table>';
 
+
+echo '<br>';
+echo '<br>';
+
+if ($edad>18&$edad%2==0) {
+    echo ' BIENVENIDO Jhojan Panozo:  '.$celular.'<br>';
+}
+else{
+    echo 'USUARIO NO ADMITIDO : Intente de nuevo  '.'<br>';
+}
 
 ?>
 

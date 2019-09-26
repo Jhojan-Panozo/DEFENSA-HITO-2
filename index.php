@@ -8,6 +8,8 @@
     <title>Document</title>
 </head>
 <body>
+
+<p> HOLA MUNDO----Programacion avanzada !!!</p>
 <a href="php/archivos/recibeParametros.php?VAR_NOMBRE=Jhojan&VAR_APELLIDO=Panozo Perez&VAR_EDAD=21&VAR_DIRECCION=AV Los Angeles&VAR_CELULAR=65509404">Click Aqui</a>
 </body>
 </html>
