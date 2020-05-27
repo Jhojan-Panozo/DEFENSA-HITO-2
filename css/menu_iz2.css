@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Menu izquierdo*/
+.div_tratamiento{
+    display: grid;
+    /*align-items: center;*/
+    flex-wrap: wrap;
+    background: #f2f2f2;
+    /*position: relative;*/
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    position:relative;
+}
+
+
+.sidebar {
+    position: absolute;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    transition: all .5s ease;
+
+}
+/*titulo de menu*/
+.sidebar header {
+    font-size: 22px;
+    color: #007aff;
+    line-height: 70px;
+    padding: 10px;
+    /*background: #042331;*/
+    user-select: none;
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    min-height: 100%;
+    line-height: 65px;
+    font-size: 16px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-bottom: 1px solid white;
+    border-top: 1px solid rgba(255,255,255,.1);
+    transition: .4s;
+    background: #e20055;
+    margin: 10px;
+}
+ul li:hover a{
+    padding-left: 50px;
+}
+.sidebar ul a i{
+    margin-right: 16px;
+}
+#check{
+    display: none;
+}
+
+label #btn,label #cancel{
+    position: absolute;
+    background: #042331;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/*boton de 3 lineas*/
+label #btn{
+    left: 40px;
+    top: 25px;
+    font-size: 35px;
+    color: white;
+    padding: 6px 12px;
+    transition: all .5s;
+}
+label #cancel{
+    z-index: 1111;
+    left: -195px;
+    top: 25px;
+    font-size: 30px;
+    color: #0a5275;
+    padding: 4px 9px;
+    transition: all .5s ease;
+}
+#check:checked ~ .sidebar{
+    left: 0;
+}
+#check:checked ~ label #btn{
+    left: 20%;
+    opacity: 0;
+    pointer-events: none;
+}
+#check:checked ~ label #cancel{
+    left: 195px;
+}
+#check:checked ~ section{
+    margin-left: 250px;
+}

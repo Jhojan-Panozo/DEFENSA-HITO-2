@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+nav{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background: #333333;
+}
+#fondo1{
+    position:absolute;
+    width:100%;
+    height:100vh;
+    background:url(../img/Den1.jpg);
+    background-size:cover;
+    opacity: 70%;
+}
+
+
+#logo{
+    position: relative;
+    top: 60%;
+    left: 1%;
+    width: 800px;
+    height: 60px;
+    /*background: #ccc;*/
+    font-size: 40px;
+    line-height: 60px;
+    color: #f1f1f1;
+}
+.Menu{
+    position: relative;
+    line-height: 32px;
+    color:white;
+}
+#opcion1{
+    position: relative;
+    top:60%;
+    right: -1%;
+    width: 800px;
+    height: 60px;
+}
+/*////////////////////////////////////////////////////////////*/
+section{
+    display: flex;
+    background: #f2f2f2;
+    /*background: url(../img/background.png) no-repeat;*/
+    background-position: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    min-height: 100%;
+    transition: all .5s;
+
+}
+
+.div_texto{
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    min-height: 100vh;
+    flex-wrap: wrap;
+    /*position: relative;*/
+    width: 100%;
+    background: white;
+    margin: 25px 40px;
+}
+
+section .div_texto h1{
+    position: relative;
+    top: 8%;
+    text-align: center;
+    /*background: #ccc;*/
+    font-size: 40px;
+    /*line-height: 60px;*/
+    margin: 20px 100px 20px 100px;
+}
+section .div_texto h2{
+    position: relative;
+    top: 8%;
+    text-align: justify;
+    /*background: #ccc;*/
+    font-size: 24px;
+    /*line-height: 60px;*/
+    margin: 20px 100px 10px 100px;
+}
+section .div_texto h3{
+    position: relative;
+    top: 8%;
+    text-align: center;
+    /*background: #ccc;*/
+    font-size: 24px;
+    /*line-height: 60px;*/
+    margin: 20px 100px 10px 100px;
+}
+section .div_texto p{
+    position: relative;
+    top: 8%;
+    text-align: justify;
+    /*background: #ccc;*/
+    font-size: 16px;
+    /*line-height: 60px;*/
+    margin: 20px 100px 10px 100px;
+}
+section .div_texto li{
+    position: relative;
+    top: 8%;
+    text-align: justify;
+    /*background: #ccc;*/
+    font-size: 16px;
+    /*line-height: 60px;*/
+    margin: 20px 100px 10px 130px;
+    /*padding: 2px*/
+}

@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background: #f2f2f2;
+    /*background: url(../img/background.png) no-repeat;*/
+    background-position: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    min-height: 100%;
+    width: 100vh;
+    transition: all .5s;
+}
+.diente_div{
+    top: 35%;
+    right: 50%;
+    display: grid;
+    /*flex-wrap: wrap;*/
+    background: #032A3F;
+    /*position: relative;*/
+    width: 200px;
+    min-height: 200px;
+    margin: 0;
+    position:absolute;
+    /*align-items: center;*/
+}
+#div_md{
+    top: 35%;
+    right: 35%;
+    background: #ff005e;
+    /*position: relative;*/
+    width: 30%;
+    min-height: 30%;
+    margin: 0;
+    position:absolute;
+}
+#div_arb{
+    top: 0%;
+    right: 35%;
+    background: #0067d5;
+    /*position: relative;*/
+    width: 30%;
+    min-height: 30%;
+    margin: 0;
+    position:absolute;
+}
+#div_der{
+    top: 35%;
+    right: 0%;
+    background: #f44336;
+    /*position: relative;*/
+    width: 30%;
+    min-height: 30%;
+    margin: 0;
+    position:absolute;
+}
+#div_abj{
+    top: 70%;
+    right: 35%;
+    background: #89ff00;
+    /*position: relative;*/
+    width: 30%;
+    min-height: 30%;
+    margin: 0;
+    position:absolute;
+}
+#div_izq{
+    top: 35%;
+    right: 70%;
+    background: #fbff00 ;
+    /*position: relative;*/
+    width: 30%;
+    min-height: 30%;
+    margin: 0;
+    position:absolute;
+}

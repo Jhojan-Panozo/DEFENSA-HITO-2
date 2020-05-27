@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+    background: #22242A;
+    /*padding: 20px;*/
+    width: 100%;
+    height: 10vh;
+}
+
+body{
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    background: #f44336;
+    /*width: 100%;*/
+    /*width: 100%;*/
+    min-height: 100vh;
+    flex-wrap: wrap;
+    /*box-sizing: border-box;*/
+}
+/*.cuadro1{*/
+/*    position: relative;*/
+/*    min-height: 100%;*/
+/*    flex-wrap: wrap;*/
+/*    !*position: relative;*!*/
+/*    width: 15.6%;*/
+/*    box-sizing: border-box;*/
+/*    background: #772aff;*/
+/*}*/
+
+/*Texto familia dental*/
+.left_area h3{
+    color: #fff;
+    margin: 15px 40px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+/*.....unifranz*/
+.left_area span{
+    color: #19B3D3;
+    font-size: 14px;
+}
+/*.......Boton salir*/
+.logout_btn{
+    position: relative;
+    padding: 5px;
+    background: #19B3D3;
+    text-decoration: none;
+    float: right;
+    margin-top: -40px;
+    margin-right: 40px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.5s;
+    transition-property: background;
+}
+/*Cambia color al estar encima*/
+.logout_btn:hover{
+    background: brown;
+}
+
+/*Menu izquierdo*/
+.sidebar {
+    background: #2f323a;
+    position: relative;
+    /*background: #2f323a;*/
+    /*margin-top: 70px;*/
+    padding-top: 30px;
+    left: 0;
+    width: 20%;/*250*/
+    min-height: 50vh;
+    transition: 0.5s;
+    flex-wrap: wrap;
+    /*transition-property: left;*/
+}
+/*imagen de menu izquierdo*/
+.sidebar .profile_image{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+/*titulo de menu izquierdo*/
+.sidebar h4{
+    color: #ccc;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+/*letra de menu izquierdo*/
+.sidebar a{
+    color: #fff;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    padding-left: 30px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transition-property: background;
+}
+/*Cambia color las letras cuando esta encima*/
+.sidebar a:hover{
+    background: #19B3D3;
+}
+/*estacio entre las letras*/
+.sidebar i{
+    padding-right: 10px;
+}
+
+/*Boton para hacer aparecer el menu*/
+label #sidebar_btn{
+    z-index: 1;
+    color: #f44336;
+    position: fixed;
+    cursor: pointer;
+    /*left: 300px;*/
+    font-size: 20px;
+    margin: 20px 15px;
+    transition: 0.5s;
+    transition-property: color;
+}
+/*cambia color el boton*/
+label #sidebar_btn:hover{
+    color: #19B3D3;
+}
+/*Donde se va a mover el menu*/
+
+#check:checked ~ .sidebar a span{
+    display: none;
+}
+
+#check:checked ~ .sidebar a{
+    font-size: 20px;
+    /*margin-left: -5%;!*170*!*/
+    width: 80px;
+}
+#check:checked ~ .sidebar .profile_image{
+    height: 50px;
+    width: 50px;
+}
+section{
+    display: inherit;
+    position: relative;
+    /*display: flex;*/
+    background: #f2f2f2;
+    /*background-position: center;*/
+    /*flex-wrap: wrap;*/
+    /*box-sizing: border-box;*/
+    /*background: url(../img/background.png) no-repeat;*/
+
+    width: 80%;
+    min-height: 100vh;
+    transition: all .5s;
+    /*margin-left: 250px;*/
+    /*!*margin-top: 60px;*!*/
+    /*!*background: url(../img/background.png) no-repeat;*!*/
+    /*background: #fbff00;*/
+    /*!*background-position: center;*!*/
+    /*background-size: cover;*/
+    /*width: 80%;*/
+    /*height: 100vh;*/
+    /*transition: 0.5s;*/
+    /*position: relative;*/
+}
+#check:checked ~ .sidebar{
+    width: 5%;/*-190px*/
+}
+
+#check:checked ~ section {
+    width: 95%;
+}
+#check{
+    display: none;
+}
+
+.cuadro2{
+    position: relative;
+    /*display: grid;*/
+    /*align-items: center;*/
+    flex-wrap: wrap;
+    background: #f2f2f2;
+    /*position: relative;*/
+    width: 100%;
+    min-height: 100%;
+    /*min-height: 100%;*/
+}
+
+section .cuadro2 p{
+    position: relative;
+    top: 8%;
+    text-align: justify;
+    /*background: #ccc;*/
+    font-size: 16px;
+    /*line-height: 60px;*/
+    margin: 20px 100px 10px 100px;
+}
+section .cuadro2 li{
+    position: relative;
+    top: 8%;
+    text-align: justify;
+    /*background: #ccc;*/
+    font-size: 16px;
+    /*line-height: 60px;*/
+    margin: 20px 100px 10px 130px;
+    /*padding: 2px*/
+    background: #89ff00;
+}

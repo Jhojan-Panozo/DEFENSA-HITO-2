@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    z-index: 100;
+    /*background: #032A3F;*/
+
+    /*background: rgba(100,50,50,.10);*/
+    /*margin: 20px auto;*/
+    /*border: 5px solid yellow;*/
+    /*padding: 20px;*/
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////*/
+nav{
+    width: 100%;
+    min-height: 100vh;
+    background: #666666;
+
+    /*background: rgba(100,50,50,.10);*/
+    /*margin: 20px auto;*/
+    /*border: 5px solid yellow;*/
+    /*padding: 20px;*/
+}
+#fondo1{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:url(../img/Dent23.jpg);
+    /*background:#f2f2f2;*/
+    background-size:cover;
+    opacity: 60%;
+}
+#ti3{
+    color: #0067d5;
+    font-size: 60px;/*14*/
+    position: relative;
+    top:40px;
+    text-align: center;
+    font-family: "Segoe UI Semibold";
+    margin-top: 50px;
+}
+/*///////////////////////////////////////////////////////////////////////////////////*/
+body{
+    display: flex;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    min-height: 100vh;
+    flex-wrap: wrap;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.idnav{
+    display: flex;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    min-height: 100vh;
+    flex-wrap: wrap;
+    background: #032A3F;
+    /*position: relative;*/
+    width: 100%;
+    margin: 0;
+    z-index: 4 ;
+}
+
+.Perfil-profecional{
+    display: grid;
+    justify-content: center;
+    /*align-items: center;*/
+    flex-wrap: wrap;
+    background: #032A3F;
+    /*position: relative;*/
+    width: 100%;
+    min-height: 50vh;
+    margin: 0;
+    position:relative;
+}
+
+.Titulo-Perfil{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: 56px;;
+    color: #306C87;
+    font-family: "Segoe UI Semibold";
+    margin: 2px 105px;
+    padding: 20px;
+}
+.Parrafo-Perfil{
+    position: relative;
+    font-size: 15px;;
+    font-family: "Segoe UI Semibold";
+    margin: 20px 105px;
+    padding: 20px;
+    text-align: justify;
+    color:white;
+
+}
+#fondo2{
+    position:absolute;
+    width:100%;
+    height:50vh;
+    background:url(../img/img50.jpg);
+    background-size:cover;
+    opacity: 10%;
+}
+
+.Perfil-profecional1{
+    display: grid;
+    justify-content: center;
+    /*align-items: center;*/
+    flex-wrap: wrap;
+    background: #032A3F;
+    /*position: relative;*/
+    width: 100%;
+    min-height: 25vh;
+    margin: 0;
+    position:relative;
+}
+.Titulo-Perfil1{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: 56px;;
+    color: #306C87;
+    font-family: "Segoe UI Semibold";
+    margin: 20px 110px;
+    padding: 20px;
+}
+.Vision{
+    position:relative;
+    width: 50%;
+    min-height: 75vh;
+    background: #383838;
+    top: 0;
+
+}
+.fondo3{
+    position:absolute;
+    width: 50%;
+    min-height: 75vh;
+    background:url(../img/img51.jpg);
+    background-size:cover;
+    top: 0;
+    right: 0;
+}
+.Perfil-profecional2{
+    /*display: grid;*/
+    justify-content: center;
+    /*align-items: center;*/
+    flex-wrap: wrap;
+    background: #032A3F;
+    /*position: relative;*/
+    width: 100%;
+    min-height: 25vh;
+    margin: 0;
+    position:relative;
+}
+.Mision{
+    position:absolute;
+    width: 50%;
+    min-height: 75vh;
+    background: #383838;
+    top: 0;
+    right: 0;
+}
+#fondo4{
+    position:relative;
+    width: 50%;
+    min-height: 75vh;
+    background:url(../img/img52.jpg);
+    background-size:contain;
+    top: 0;
+    right: 0;
+}
