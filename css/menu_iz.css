@@ -146,7 +146,7 @@ label #sidebar_btn:hover{
     height: 50px;
     width: 50px;
 }
-section{
+section {
     display: inherit;
     position: relative;
     /*display: flex;*/
@@ -169,6 +169,15 @@ section{
     /*height: 100vh;*/
     /*transition: 0.5s;*/
     /*position: relative;*/
+}
+section iframe{
+    display: grid;
+    position: relative;
+    /*display: flex;*/
+    background: #f2f2f2;
+    width: 100%;
+    min-height: 100vh;
+    transition: all .3s;
 }
 #check:checked ~ .sidebar{
     width: 5%;/*-190px*/

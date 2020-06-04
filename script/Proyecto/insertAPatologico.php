@@ -32,5 +32,5 @@ $comentario = $_POST['comentario'];
 
 
 $user=new DatosAPatologicos();
-$user->insertAPatologico($ci,$tratamiento_m,$medicamentos,$alergias,$enfermedades,$gastricas,$hepatitis,$tuberculosis,$venerias,$embarazada,$intermedio,$post_exodoncia,$anticonceptivos,$asma,$epilepsia,$chagas,$diabetes,$sida,$leusemia,$osteoporosis,$hemofilia,$herpes,$cancer,$comentario );
+$user->insertAPatologico($ci,$tratamiento_m,$medicamentos,$alergias,$enfermedades,$gastricas,$hepatitis,$tuberculosis,$venerias,$embarazada,$intermedio,$post_exodoncia,$anticonceptivos,$asma,$epilepsia,$renal,$chagas,$diabetes,$sida,$leusemia,$osteoporosis,$hemofilia,$herpes,$cancer,$comentario );
 //$user->redirecToIndex();
