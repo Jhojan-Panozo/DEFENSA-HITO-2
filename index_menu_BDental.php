@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="css/style-tratamiento.css" type="text/css" rel="stylesheet" media="">
     <link rel="stylesheet" href="css/menu_iz2.css" type="text/css" rel="stylesheet" media="">
     <link rel="stylesheet" href="css/style-footer.css" type="text/css" rel="stylesheet" media="">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+<!--    <script src="https://kit.fontawesome.com/a076d05399.js"></script>-->
     <title>Menu Izquierda</title>
 
 </head>
@@ -29,12 +30,12 @@
     <div class="sidebar">
         <header>TRATAMIENTOS</header>
         <ul>
-            <li><a href="#">Blanqueo dental</a></li>
-            <li><a href="#">Carillas dentales</a></li>
-            <li><a href="#">Coronas Dentales</a></li>
-            <li><a href="#">Limpieza Dental</a></li>
-            <li><a href="#">Ortodoncia</a></li>
-            <li><a href="#">Periodoncia</a></li>
+            <li><a href="index_menu_BDental.php">Blanqueo dental</a></li>
+            <li><a href="index_menu_CDental1.php">Carillas dentales</a></li>
+            <li><a href="index_menu_CDental2.php">Coronas Dentales</a></li>
+            <li><a href="index_menu_LDental.php">Limpieza Dental</a></li>
+            <li><a href="index_menu_ODental.php">Ortodoncia</a></li>
+            <li><a href="index_menu_PDental.php">Periodoncia</a></li>
         </ul>
     </div>
     <section>
@@ -69,9 +70,9 @@
             <h4>Useful Links</h4>
             <div class="border"></div>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Nuestro Equipo</a></li>
-                <li><a href="#">Sesion</a></li>
+                <li><a href="index_inicio.php">Inicio</a></li>
+                <li><a href="index_nuestro_equipo.php">Nuestro Equipo</a></li>
+                <li><a href="Index_Loguin.php">Sesion</a></li>
             </ul>
         </div>
         <div class="col-lg-3 col-md-6 footer-contact">
@@ -83,10 +84,10 @@
                 <li><i class="fa fa-envelope" aria-hidden="true"></i> anngelito.l@gmail.com</li>
             </ul>
             <div class="social-links">
-                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
             </div>
         </div>
         <div class="container">

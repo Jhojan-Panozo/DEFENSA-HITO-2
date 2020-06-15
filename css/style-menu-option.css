@@ -37,6 +37,7 @@ nav{
     align-items: center;
     min-height: 90vh;
     flex-wrap: wrap;
+    /*background: #032A3F;*/
     background: #032A3F;
     position: relative;
     width: 100%;
@@ -51,7 +52,7 @@ nav{
     justify-content: center;
     align-items: center;
     background: #032A3F;
-    margin: 30px;
+    margin: 40px;
     border-radius: 10px 10px 10px 10px;
     /*top: 30px;*/
     /*bottom: 80px;*/
@@ -93,30 +94,32 @@ nav{
 }
 .box:nth-child(1):before,
 .box:nth-child(1):after{
-    background: linear-gradient(235deg,#89ff00,#010615,#00bcd4);
+    background: linear-gradient(235deg, #2ba86f,#032A3F, #2ba86f);
 }
 .box:nth-child(2):before,
 .box:nth-child(2):after{
-    background: linear-gradient(235deg,#ff005e,#010615,#fbff00);
+    background: linear-gradient(235deg,#2ba86f,#032A3F,#2ba86f);
 }
 .box:nth-child(3):before,
 .box:nth-child(3):after{
-    background: linear-gradient(235deg,#772aff,#010615,#2196f3);
+    background: linear-gradient(235deg,#2ba86f,#032A3F,#2ba86f);
 }
 
 .box:nth-child(4):before,
 .box:nth-child(4):after{
-    background: linear-gradient(235deg,#89ff00,#010615,#00bcd4);
+    background: linear-gradient(235deg,#2ba86f,#032A3F,#2ba86f);
 }
 .box:nth-child(5):before,
 .box:nth-child(5):after{
-    background: linear-gradient(235deg,#ff005e,#010615,#fbff00);
+    background: linear-gradient(235deg,#2ba86f,#032A3F,#2ba86f);
 }
 .box:nth-child(6):before,
 .box:nth-child(6):after{
-    background: linear-gradient(235deg,#772aff,#010615,#2196f3);
+    background: linear-gradient(235deg,#2ba86f,#032A3F,#2ba86f);
 }
-
+/*background: linear-gradient(235deg,#89ff00,#010615,#00bcd4);*/
+/*background: linear-gradient(235deg,#ff005e,#010615,#fbff00);*/
+/*background: linear-gradient(235deg,#772aff,#010615,#2196f3);*/
 .middle1{
     position: absolute;
     top: 50%;
@@ -152,10 +155,12 @@ nav{
 }
 .back-content{
     color: #2c3e50;
-    text-align: center;
-    padding: 5px;
+    text-align: justify;
+    padding: 30px;
+
     width: 100%;
 }
+
 .back-content h2{
     color: #f44336;
     margin: 7px;
@@ -166,14 +171,13 @@ nav{
 
 .sm{
     margin: 20px 0;
-
+    text-align: center;
 }
 .sm a{
     /*display: inline-flex;*/
     width: 80px;
     height: 40px;
-    justify-content: center;
-    align-items: center;
+
     color: #2c3e50;
     font-size: 18px;
     transition: 0.4s;
@@ -190,4 +194,21 @@ nav{
 }
 .card:hover > .back{
     transform: perspective(600px) rotateY(0deg);
+}
+/*///////////////////////////////////////////////////////////////////////////////////*/
+.animado{
+    opacity: 0;
+    transition: all 0.5s;
+}
+.mostrarArriba{
+    animation: mostrarArriba 1s;
+}
+
+@keyframes mostrarArriba{
+    0%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }

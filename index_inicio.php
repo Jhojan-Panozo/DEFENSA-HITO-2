@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style-inicio.css" type="text/css" rel="stylesheet" media="">
     <link rel="stylesheet" href="css/stryle-redes-sociales.css" type="text/css" rel="stylesheet" media="">
     <link rel="stylesheet" href="css/style-menu-option.css" type="text/css" rel="stylesheet" media="">
-    <link rel="stylesheet" href="css/style-cambia-Img.css" type="text/css" rel="stylesheet" media="">
+<!--    <link rel="stylesheet" href="css/style-cambia-Img.css" type="text/css" rel="stylesheet" media="">-->
 
     <link rel="stylesheet" href="css/menu_arriba.css" type="text/css" rel="stylesheet" media="">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -21,19 +21,35 @@
 <header>
     <div id="fondo1"></div>
 
-    <div class="nav1">
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo">Clinica Odontologica</label>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="index_nuestro_equipo.php">Nuestro equipo</a></li>
-            <li><a href="Index_Loguin.php">Sesion</a></li>
-        </ul>
+    <div id="nav" class="nav1">
+        <div class="contenedor-nav">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">Clinica Odontologica</label>
+            <ul>
+                <li><a href="index_inicio.php">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="index_nuestro_equipo.php">Nuestro equipo</a></li>
+                <li><a href="Index_Loguin.php">Sesion</a></li>
+            </ul>
+        </div>
     </div>
+
+<!--    <div class="nav1">-->
+<!--        <input type="checkbox" id="check">-->
+<!--        <label for="check" class="checkbtn">-->
+<!--            <i class="fas fa-bars"></i>-->
+<!--        </label>-->
+<!--        <label class="logo">Clinica Odontologica</label>-->
+<!--        <ul>-->
+<!--            <li><a href="#">Inicio</a></li>-->
+<!--            <li><a href="#">Acerca de</a></li>-->
+<!--            <li><a href="index_nuestro_equipo.php">Nuestro equipo</a></li>-->
+<!--            <li><a href="Index_Loguin.php">Sesion</a></li>-->
+<!--        </ul>-->
+<!--    </div>-->
 
 <!--    <div id="logo">DENTISTA</div>-->
 <!--    <div id="opcion1" class="Menu"></div>-->
@@ -41,8 +57,8 @@
 <!--    <div id="opcion3" class="Menu"><a href="index_nuestro_equipo.php">Acerca de</a></div>-->
 <!--    <div id="opcion4" class="Menu"><a href="Index_Loguin.php">Inicio</a></div>-->
 
-    <div id="titulo"><h1 id="ti1">SONRIE CON NUESTRA</h1></div>
-    <div id="titulo"><h1 id="ti2">FAMILIA DENTAL</h1></div>
+    <div class=""><h1 id="ti1">SONRIE CON NUESTRA</h1></div>
+    <div class=""><h1 id="ti2">FAMILIA DENTAL</h1></div>
 
     <div class="middle">
         <a class="btn" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
@@ -55,7 +71,7 @@
 <!--//////////////////////////////////////////////////////////////////////////////////////-->
 <nav>
     <div id="idnav1">
-        <h1 id="trata">Tratamientos</h1>
+        <h1 class="animado" id="trata">Tratamientos</h1>
     </div>
     <div id="idnav">
         <div class="card box">
@@ -69,7 +85,7 @@
                     <h2>Blanqueo Dental</h2>
                     <span>El blanqueamiento dental es un tratamiento que aclarar el tono de tus dientes</span>
                     <div class="sm">
-                        <a href="index_menu_iz2.php"><i class="">Mas informacion</i></a>
+                        <a href="index_menu_BDental.php"><i class="">Mas informacion</i></a>
                     </div>
                 </div>
             </div>
@@ -86,7 +102,7 @@
                     <h2>Carillas dentales</h2>
                     <span>Ayudan a mejorar la apariencia del diente cambiando su color, forma o tamaño.</span>
                     <div class="sm">
-                        <a href="index_menu_iz2.php"><i class="">Mas informacion</i></a>
+                        <a href="index_menu_CDental1.php"><i class="">Mas informacion</i></a>
                     </div>
                 </div>
             </div>
@@ -103,7 +119,7 @@
                     <h2>Coronas Dentales</h2>
                     <span>Las coronas dentales son una excelente opción para conservar la estética de tus dientes.</span>
                     <div class="sm">
-                        <a href="index_menu_iz2.php"><i class="">Mas informacion</i></a>
+                        <a href="index_menu_CDental2.php"><i class="">Mas informacion</i></a>
                     </div>
                 </div>
             </div>
@@ -120,7 +136,7 @@
                     <h2>Limpieza Dental</h2>
                     <span>Nuestros especialistas recomiendan realizarte una limpieza dental cada 6 meses.</span>
                     <div class="sm">
-                        <a href="index_menu_iz2.php"><i class="">Mas informacion</i></a>
+                        <a href="index_menu_LDental.php"><i class="">Mas informacion</i></a>
                     </div>
                 </div>
             </div>
@@ -137,10 +153,7 @@
                     <h2>Ortodoncia </h2>
                     <span>Nos ayudan a tener una boca sana, una boca feliz y dientes con más fuerza</span>
                     <div class="sm">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="index_menu_ODental.php"><i class="">Mas informacion</i></a>
                     </div>
                 </div>
             </div>
@@ -157,11 +170,14 @@
                     <h2>Periodoncia</h2>
                     <span> Te ayudará a recuperar la salud y estética de tus encías.</span>
                     <div class="sm">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="index_menu_pDental.php"><i class="">Mas informacion</i></a>
                     </div>
+<!--                    <div class="sm">-->
+<!--                        <a href="#"><i class="fab fa-facebook-f"></i></a>-->
+<!--                        <a href="#"><i class="fab fa-twitter"></i></a>-->
+<!--                        <a href="#"><i class="fab fa-youtube"></i></a>-->
+<!--                        <a href="#"><i class="fab fa-instagram"></i></a>-->
+<!--                    </div>-->
                 </div>
             </div>
         </div>
@@ -190,9 +206,9 @@
             <h4>Useful Links</h4>
             <div class="border"></div>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Nuestro Equipo</a></li>
-                <li><a href="#">Sesion</a></li>
+                <li><a href="index_inicio.php">Inicio</a></li>
+                <li><a href="index_nuestro_equipo.php">Nuestro Equipo</a></li>
+                <li><a href="Index_Loguin.php">Sesion</a></li>
             </ul>
         </div>
         <div class="col-lg-3 col-md-6 footer-contact">
@@ -204,11 +220,18 @@
                 <li><i class="fa fa-envelope" aria-hidden="true"></i> anngelito.l@gmail.com</li>
             </ul>
             <div class="social-links">
-                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
             </div>
+<!--            <div class="middle">-->
+<!--                <a class="btn" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>-->
+<!--                <a class="btn" href="#"><i class="fab fa-whatsapp"></i></a>-->
+<!--                <a class="btn" href="#"><i class="fab fa-twitter"></i></a>-->
+<!--                <a class="btn" href="#"><i class="fab fa-google"></i></a>-->
+<!--                <a class="btn" href="#"><i class="fab fa-instagram"></i></a>-->
+<!--            </div>-->
         </div>
         <div class="container">
             <div class="copyright">
@@ -220,5 +243,5 @@
         </div>
     </div>
 </footer>
-
+<script src="Js/Dg/Anim.js"></script>
 </html>

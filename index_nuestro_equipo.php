@@ -21,18 +21,20 @@
 </head>
 <!--////////////////////////////////////////////////////////////////////////////////////////////////-->
 <header>
-    <div class="nav1">
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo">Clinica Odontologica</label>
-        <ul>
-            <li><a href="index_inicio.php">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="index_nuestro_equipo.php">Nuestro equipo</a></li>
-            <li><a href="Index_Loguin.php">Sesion</a></li>
-        </ul>
+    <div id="nav" class="nav1">
+        <div class="contenedor-nav">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">Clinica Odontologica</label>
+            <ul>
+                <li><a href="index_inicio.php">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="index_nuestro_equipo.php">Nuestro equipo</a></li>
+                <li><a href="Index_Loguin.php">Sesion</a></li>
+            </ul>
+        </div>
     </div>
 
 <!--    <div id="logo">DENTISTA</div>-->
@@ -157,9 +159,9 @@
             <h4>Useful Links</h4>
             <div class="border"></div>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Nuestro Equipo</a></li>
-                <li><a href="#">Sesion</a></li>
+                <li><a href="index_inicio.php">Inicio</a></li>
+                <li><a href="index_nuestro_equipo.php">Nuestro Equipo</a></li>
+                <li><a href="Index_Loguin.php">Sesion</a></li>
             </ul>
         </div>
         <div class="col-lg-3 col-md-6 footer-contact">
@@ -171,10 +173,10 @@
                 <li><i class="fa fa-envelope" aria-hidden="true"></i> anngelito.l@gmail.com</li>
             </ul>
             <div class="social-links">
-                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
             </div>
         </div>
         <div class="container">
@@ -187,4 +189,5 @@
         </div>
     </div>
 </footer>
+<script src="Js/Dg/Anim.js"></script>
 </html>

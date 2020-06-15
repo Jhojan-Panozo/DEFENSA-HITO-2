@@ -30,6 +30,7 @@ nav{
     font-size: 40px;
     line-height: 60px;
     color: #f1f1f1;
+    animation:mostrarArriba 1s ;
 }
 .Menu{
     position: relative;
@@ -42,6 +43,7 @@ nav{
     right: -1%;
     width: 800px;
     height: 60px;
+    animation:mostrarArriba 1s ;
 }
 /*////////////////////////////////////////////////////////////*/
 section{
@@ -76,6 +78,7 @@ section .div_texto h1{
     font-size: 40px;
     /*line-height: 60px;*/
     margin: 20px 100px 20px 100px;
+    animation:mostrarDer 1s ;
 }
 section .div_texto h2{
     position: relative;
@@ -85,6 +88,7 @@ section .div_texto h2{
     font-size: 24px;
     /*line-height: 60px;*/
     margin: 20px 100px 10px 100px;
+    animation:mostrarDer 1s ;
 }
 section .div_texto h3{
     position: relative;
@@ -94,6 +98,7 @@ section .div_texto h3{
     font-size: 24px;
     /*line-height: 60px;*/
     margin: 20px 100px 10px 100px;
+    animation:mostrarDer 1s ;
 }
 section .div_texto p{
     position: relative;
@@ -103,6 +108,7 @@ section .div_texto p{
     font-size: 16px;
     /*line-height: 60px;*/
     margin: 20px 100px 10px 100px;
+    animation:mostrarDer 1s ;
 }
 section .div_texto li{
     position: relative;
@@ -113,4 +119,5 @@ section .div_texto li{
     /*line-height: 60px;*/
     margin: 20px 100px 10px 130px;
     /*padding: 2px*/
+    animation:mostrarDer 1s ;
 }

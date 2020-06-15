@@ -6,15 +6,21 @@
 }
 
 header{
-    position: relative;
+    /*position: relative;*/
+    /*width: 100%;*/
+    /*height: 100vh;!*650*!*/
+    /*background: #444;*/
     width: 100%;
-    height: 100vh;/*650*/
-    background: #444;
+    height:100vh;
+    background: linear-gradient(to bottom,
+    rgba(30, 30, 39, 0.62),
+    rgba(3, 77, 115, 0.6),
+    rgba(34, 68, 115, 0.45)
+    ), url(../img/Dent18.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 
-    /*background: rgba(100,50,50,.10);*/
-    /*margin: 20px auto;*/
-    /*border: 5px solid yellow;*/
-    /*padding: 20px;*/
 }
 /*///////////////////////////////////////////////////////////////////////////////////*/
 #logo{
@@ -30,6 +36,7 @@ header{
     text-align: center;
     line-height: 60px;
     color: #f1f1f1;
+
 }
 .Menu{
     position: absolute;
@@ -68,11 +75,15 @@ header{
 }
 /*///////////////////////////////////////////////////////////////////////////////////*/
 /*.titulo{*/
-/*    position: absolute;*/
-/*    width:200px;*/
-/*    height: 192px;*/
-/*    background: #888;*/
-/*    !*margin: 20px auto;*!*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    display:flex;*/
+/*    justify-content: center;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    color:#fff;*/
+/*    overflow: hidden;*/
+/*    text-align: center;*/
 /*}*/
 #ti1{
 
@@ -81,14 +92,15 @@ header{
     position: relative;
     top:250px;
     text-align: center;
-
+    animation:mostrarArriba 1s ;
 }
 #ti2{
-    color: #00358b;
+    color: #00bcd4;
     font-size: 60px;/*14*/
     position: relative;
     top:250px;
     text-align: center;
+    animation:mostrarArriba 1s ;
 }
 /*///////////////////////////////////////////////////////////////////////////////////*/
 nav{
@@ -107,3 +119,19 @@ nav{
     margin: auto;
 }
 /*///////////////////////////////////////////////////////////////////////////////////*/
+.animado{
+    opacity: 0;
+    transition: all 0.5s;
+}
+.mostrarArriba{
+    animation: mostrarArriba 1s;
+}
+
+@keyframes mostrarArriba{
+    0%{
+        transform: translateY(60px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

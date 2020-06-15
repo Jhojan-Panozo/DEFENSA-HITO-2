@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+/*@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');*/
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -53,7 +53,7 @@ body {
     background: #e20055;
     margin: 10px;
 }
-ul li:hover a{
+.sidebar ul li:hover a{
     padding-left: 50px;
 }
 .sidebar ul a i{
@@ -100,4 +100,30 @@ label #cancel{
 }
 #check:checked ~ section{
     margin-left: 250px;
+}
+/*///////////////////////////////////////////////////////////////////////////////////*/
+.mostrarArriba{
+    animation: mostrarArriba 1s;
+}
+
+@keyframes mostrarArriba{
+     0%{
+         transform: translateY(60px);
+     }
+     100%{
+         transform: translateY(0);
+     }
+ }
+/*///////////////////////////////////////////////////////////////////////////////////*/
+.mostrarDer{
+    animation: mostrarDer 1s;
+}
+
+@keyframes mostrarDer{
+    0%{
+        transform: translateX(100px);
+    }
+    100%{
+        transform: translateX(0);
+    }
 }

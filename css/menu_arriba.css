@@ -6,13 +6,29 @@
     list-style: none;
     text-decoration: none;
 }
-.nav1{
-    position: absolute;
+:root{
+    --color1: rgb(219,144,.5);
+    --color2: rgba(23, 180, 83, 0.877);
+    --color3: rgba(11,194,211, 0.623);
+    --fondo: #ff005e;
+    --titulos: 33px;
+    --margenes: 60px;
+    --espacios: 10px;
+    --espacios-contenido:45px;
+}
+#nav{
+    /*position: absolute;*/
     background: #f2f2f2;
     height: 80px;
     width: 100%;
 
+    /*width: 100%;*/
+    position: fixed;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.8);
+    z-index: 100;
 }
+
+
 label.logo{
     color: #f44336;
     font-size: 38px;
@@ -34,15 +50,17 @@ label.logo{
     /*color: #f2f2f2;*/
     color: #0a5275;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
     /* text-transform: uppercase; */
     font-family: "Montserrat", sans-serif;
+    text-decoration: none;
 }
 a.active,a:hover{
     background: #1b9bff;
     transition: .5s;
+
 }
 .checkbtn{
     font-size: 30px;

@@ -33,19 +33,20 @@ nav{
     position:absolute;
     width:100%;
     height:100%;
-    background:url(../img/Dent23.jpg);
+    background:url(../img/marketing3.jpeg);
     /*background:#f2f2f2;*/
     background-size:cover;
-    opacity: 60%;
+    opacity: 50%;
 }
 #ti3{
-    color: #0067d5;
+    color: #00bcd4;
     font-size: 60px;/*14*/
     position: relative;
     top:40px;
     text-align: center;
     font-family: "Segoe UI Semibold";
     margin-top: 50px;
+    animation:mostrarArriba 1s ;
 }
 /*///////////////////////////////////////////////////////////////////////////////////*/
 body{
@@ -90,20 +91,20 @@ body{
     top: 50px;
     text-align: center;
     font-size: 56px;;
-    color: #306C87;
+    color: #3498db;
     font-family: "Segoe UI Semibold";
     margin: 2px 105px;
     padding: 20px;
 }
 .Parrafo-Perfil{
     position: relative;
-    font-size: 15px;;
-    font-family: "Segoe UI Semibold";
-    margin: 20px 105px;
+    font-size: 18px;;
+    font-family: "Calibri";
+    margin: 20px 100px;
     padding: 20px;
     text-align: justify;
     color:white;
-
+    line-height: 1.8em;
 }
 #fondo2{
     position:absolute;
@@ -131,7 +132,7 @@ body{
     top: 50px;
     text-align: center;
     font-size: 56px;;
-    color: #306C87;
+    color: #3498db;
     font-family: "Segoe UI Semibold";
     margin: 20px 110px;
     padding: 20px;
@@ -178,7 +179,24 @@ body{
     width: 50%;
     min-height: 75vh;
     background:url(../img/img52.jpg);
-    background-size:contain;
+    background-size:cover;
     top: 0;
     right: 0;
+}
+/*///////////////////////////////////////////////////////////////////////////////////*/
+.animado{
+    opacity: 0;
+    transition: all 0.5s;
+}
+.mostrarArriba{
+    animation: mostrarArriba 1s;
+}
+
+@keyframes mostrarArriba{
+    0%{
+        transform: translateY(250px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
