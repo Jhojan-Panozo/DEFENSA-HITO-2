@@ -5,7 +5,7 @@ new Vue({
         this.cargarMateria();
         this.GuardarDatosFamiliares();
         this.GuardarHigieneBucal();
-        this.GuardarAPatologicos();
+        this.GuardarAPatologicos(); 
     },
 
     data: {

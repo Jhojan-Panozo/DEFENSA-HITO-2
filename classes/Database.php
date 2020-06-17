@@ -21,7 +21,7 @@ class Database
         $this->server = '127.0.0.1';
         $this->user = 'root';
         $this->password = '';
-        $this->database = 'odontologia';//progra
+        $this->database = 'odontologia';//progra-odontologia
         //$this->puertodb = '3306';
     }
 

@@ -96,7 +96,7 @@ section{
     position: absolute;
     /*top: 50px;*/
     bottom: 100px;
-    background: #89ff00;
+    background: #f9f9f9;
     width: 70px;
     height: 110px;
     z-index: 500;
@@ -111,7 +111,7 @@ section{
     position: absolute;
     /*top: 50px;*/
     top: 100px;
-    background: #89ff00;
+    background: #f9f9f9;
     width: 70px;
     height: 110px;
     z-index: 500;
