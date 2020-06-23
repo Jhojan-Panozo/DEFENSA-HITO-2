@@ -65,10 +65,9 @@
 <footer class="footer1">
     <div class="footer-top">
         <div class="col-lg-4 col-md-6 footer-info">
-            <h3>Web Odontology</h3>
-            <p>adsf asd asldkjfa hja dsfjh aslh als dlkasdhf jahfd
-                asdlfkj has ldfjhasdkjhf alsf
-                adfkjhas flajksdhf aasd asd a sdas das das dadsa </p>
+            <h3>Dental Family</h3>
+            <p>La odontologia es una profesion de un que exige el sentido de un artista, la destreza manual de un cirujano, los conocimientos
+                cientificos de un medico y la paciencia de un monje.</p>
         </div>
         <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>

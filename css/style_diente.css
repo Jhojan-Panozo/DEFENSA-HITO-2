@@ -67,7 +67,7 @@ section{
     /*margin-top: 200px;*/
     /*margin-right: 5px;*/
     /*////arriba-izquierda-abajo-derecha*/
-    margin: 40px 5px 150px 5px;
+    margin: 40px 5px 170px 5px;
     position: relative;
     /*flex-wrap: wrap;*/
     /*position: relative;*/
@@ -260,8 +260,8 @@ footer{
 }
 
 .N_Dental{
-    /*justify-content: center;*/
-    /*align-items: center;*/
+    justify-content: center;
+    align-items: center;
     /*display: grid;*/
     /*position:absolute;*/
     display: grid;
@@ -274,13 +274,18 @@ footer{
 }
 .N_Dental h2{
     margin: 2px 10px;
+    text-align: center;
+
 }
 .N_Dental h4{
     margin: 5px 15px;
+    text-align: center;
+    color: #f2f2f2;
 }
 .D_Dental{
     /*justify-content: center;*/
     /*align-items: center;*/
+    text-align: center;
     /*display: grid;*/
     /*position:absolute;*/
     display: grid;
@@ -289,14 +294,26 @@ footer{
     /*////arriba-izquierda-abajo-derecha*/
     margin: 15px 0px ;
     position: relative;
-    background: #3498db;
+    background: rgba(0, 107, 250, 0.7);
 
     /*position: relative;*/
     width: 15%;/*12*/
     min-height: 150vh;
     margin-left: 2px;
 }
+
+.D_Dental h2{
+    color: rgba(230,0,0,.9);
+}
 .D_Dental select{
     margin: 1px 15px;
 
+}
+
+#Guardar{
+    position: absolute;
+    right: 180px;
+    bottom: -60px;
+    height: 30px;
+    width: 100px;
 }

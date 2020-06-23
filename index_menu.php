@@ -19,10 +19,12 @@
         <i class="fas fa-bars" id="sidebar_btn"></i>
     </label>
     <div class="left_area">
-        <h3>FAMILIA DENTAL <span>UNIFRANZ</span></h3>
+        <h3>FAMILIA DENTAL <span>UNIFRANZ </span></h3>
     </div>
+
     <div class="right_area">
-        <a href="index_inicio.php" class="logout_btn">Salir</a>
+        <a href="index_inicio.php" class="logout_btn" >Salir</a>
+
     </div>
 </header>
 
@@ -35,7 +37,7 @@
 <!--sidebar start-->
 <div class="sidebar">
     <center>
-        <img src="img/Den11.png" class="profile_image" alt="">
+        <img src="img/Dent50.jpg" class="profile_image" alt="">
         <h4>Nombre Doctor</h4>
     </center>
 <!--    <a href="#"><i class="fas fa-desktop"></i><span>Datos Personales</span></a>-->
@@ -72,7 +74,9 @@
             iframe.setAttribute("src", src); // ponemos el atributo "src" al iframe
         });
     });
+
 </script>
+<script src="Js/proyect.js"></script>
 <!--sidebar end-->
 <!--////////////////////////////////////////////////////////////-->
 <section>
@@ -81,6 +85,11 @@
 <!--    <iframe src="index_DPersonales.php">-->
 <!--    <iframe src="index_Higiene_Bucal.php">-->
 </section>
+<!-- Importamos Vue.js y Axios.js -->
+<script src="Js/vue.js"></script>
+<script src="Js/axios.min.js"></script>
+<!-- Importamos nuestra app js -->
+<script src="Js/app_proyecto.js"></script>
 <!--////////////////////////////////////////////////////////////-->
 </body>
 </html>

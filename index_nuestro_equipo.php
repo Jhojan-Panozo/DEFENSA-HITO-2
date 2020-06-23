@@ -30,7 +30,7 @@
             <label class="logo">Clinica Odontologica</label>
             <ul>
                 <li><a href="index_inicio.php">Inicio</a></li>
-                <li><a href="#">Acerca de</a></li>
+<!--                <li><a href="#">Acerca de</a></li>-->
                 <li><a href="index_nuestro_equipo.php">Nuestro equipo</a></li>
                 <li><a href="Index_Loguin.php">Sesion</a></li>
             </ul>
@@ -53,7 +53,7 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="imgBx">
-                    <img src="img/Dent15.jpg">
+                    <img src="img/Dent51.jpg">
                 </div>
                 <div class="details">
                     <h3>Dr.Jhojan Panozo<br><span>Jefe de cirugia</span></h3>
@@ -61,7 +61,7 @@
             </div>
             <div class="swiper-slide">
                 <div class="imgBx">
-                    <img src="img/Dent17.jpg">
+                    <img src="img/Dent53.jpg">
                 </div>
                 <div class="details">
                     <h3>Dr.Jhojan Panozo<br><span>Jefe de cirugia</span></h3>
@@ -69,7 +69,7 @@
             </div>
             <div class="swiper-slide">
                 <div class="imgBx">
-                    <img src="img/img22.jpg">
+                    <img src="img/Dent52.jpg">
                 </div>
                 <div class="details">
                     <h3>Dr.Jhojan Panozo<br><span>Jefe de cirugia</span></h3>
@@ -77,7 +77,7 @@
             </div>
             <div class="swiper-slide">
                 <div class="imgBx">
-                    <img src="img/Den11.png">
+                    <img src="img/Dent54.jpg">
                 </div>
                 <div class="details">
                     <h3>Dr.Jhojan Panozo<br><span>Jefe de cirugia</span></h3>
@@ -85,7 +85,7 @@
             </div>
             <div class="swiper-slide">
                 <div class="imgBx">
-                    <img src="img/img23.jpg">
+                    <img src="img/Dent50.jpg">
                 </div>
                 <div class="details">
                     <h3>Dr.Jhojan Panozo<br><span>Jefe de cirugia</span></h3>
@@ -140,7 +140,7 @@
             <h2 class="Titulo-Perfil1">Mision</h2>
             <p class="Parrafo-Perfil">La Carrera de Odontología pretende formar profesionales en el área de la salud, con dominio de las Competencias que hacen a un profesional altamente capacitado, con profundos valores éticos y morales, con un desempeño óptimo en el sector público y privado y con la capacidad de mejoramiento continuo acorde al constante desarrollo de la ciencia y la tecnología.</p>
         </div>
-        <div id="fondo4"></div>
+        <div class="fondo4"></div>
     </div>
 </div>
 
@@ -150,10 +150,9 @@
 <footer class="footer1">
     <div class="footer-top">
         <div class="col-lg-4 col-md-6 footer-info">
-            <h3>Web Odontology</h3>
-            <p>adsf asd asldkjfa hja dsfjh aslh als dlkasdhf jahfd
-                asdlfkj has ldfjhasdkjhf alsf
-                adfkjhas flajksdhf aasd asd a sdas das das dadsa </p>
+            <h3>Dental Family</h3>
+            <p>La odontologia es una profesion de un que exige el sentido de un artista, la destreza manual de un cirujano, los conocimientos
+                cientificos de un medico y la paciencia de un monje. </p>
         </div>
         <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>

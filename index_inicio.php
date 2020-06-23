@@ -30,7 +30,7 @@
             <label class="logo">Clinica Odontologica</label>
             <ul>
                 <li><a href="index_inicio.php">Inicio</a></li>
-                <li><a href="#">Acerca de</a></li>
+<!--                <li><a href="#">Acerca de</a></li>-->
                 <li><a href="index_nuestro_equipo.php">Nuestro equipo</a></li>
                 <li><a href="Index_Loguin.php">Sesion</a></li>
             </ul>
@@ -197,13 +197,12 @@
 <footer class="footer1">
     <div class="footer-top">
         <div class="col-lg-4 col-md-6 footer-info">
-            <h3>Web Odontology</h3>
-            <p>adsf asd asldkjfa hja dsfjh aslh als dlkasdhf jahfd
-            asdlfkj has ldfjhasdkjhf alsf
-            adfkjhas flajksdhf aasd asd a sdas das das dadsa </p>
+            <h3>Dental Family</h3>
+            <p>La odontologia es una profesion de un que exige el sentido de un artista, la destreza manual de un cirujano, los conocimientos
+            cientificos de un medico y la paciencia de un monje.</p>
         </div>
         <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Enlaces</h4>
             <div class="border"></div>
             <ul>
                 <li><a href="index_inicio.php">Inicio</a></li>
@@ -212,7 +211,7 @@
             </ul>
         </div>
         <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contact Usuario</h4>
+            <h4>Contacto</h4>
             <div class="border"></div>
             <ul>
                 <li><i class="fa fa-map-marker" aria-hidden="true"></i>  Av.Santa Cruz y calle.Hercules</li>

@@ -22,13 +22,13 @@
 }
 
 .footer1 .footer-top .footer-info{
-    margin: 20px;
+    margin: 40px;
     width: 40%;
 }
 
 .footer1 .footer-top .footer-info h3{
     font-size: 34px;
-    margin: 0 0 20px 0;
+    margin: 10px 0 20px 0;
     padding: 2px 0 2px 0;
     line-height: 1;
     font-family: "Montserrat", sans-serif;
@@ -40,10 +40,10 @@
 .footer1 .footer-top .footer-info p{
     font-size: 13px;
     line-height: 24px;
-    margin-bottom: 0;
+    /*margin-bottom: 0;*/
     font-family:"Montserrat", sans-serif;
     color: #eeeeee;
-
+    margin: 0px 0 30px 0;
 }
 .footer1 .footer-top .social-links a{
     font-size: 18px;
@@ -67,6 +67,7 @@
 }
 
 .footer1 .footer-top h4{
+    margin: 20px 0 5px 0;
     font-size: 16px;
     font-weight: bold;
     color: #74b5fc;
@@ -114,10 +115,11 @@
     background: #1c355e;
     /*background: #00428a;*/
 
+
 }
 .footer1 .copyright{
     text-align: center;
-    padding-top: 10px;
+    padding-top: 15px;
 
 }
 .footer1 .credits{

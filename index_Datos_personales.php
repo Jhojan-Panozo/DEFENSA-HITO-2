@@ -28,7 +28,7 @@
                 <br>
                 <br>
                 <label for="texto">CI: </label>
-                <input type="text" placeholder="Ej: 13096013" name="ci" v-model ="ci" required>
+                <input id="ci" type="text" placeholder="Ej: 13096013" name="ci" v-model ="ci" required>
                 <br>
                 <br>
                 <label for="texto">Nombre: </label>
@@ -99,7 +99,7 @@
                 <br>
 
 
-                <input type="submit" value="Agregar" v-on:click="AgregarPalabra"/>
+                <input type="submit" value="Agregar" v-on:click="AgregarPalabra" onclick="ci_igual()"/>
 
             </form>
         </main>
@@ -108,6 +108,7 @@
         <script src="Js/axios.min.js"></script>
         <!-- Importamos nuestra app js -->
         <script src="Js/app_proyecto.js"></script>
+        <script src="Js/proyect.js"></script>
     </div>
 </section>
 </body>

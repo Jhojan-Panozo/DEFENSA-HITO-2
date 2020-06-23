@@ -2,7 +2,7 @@ new Vue({
     el: 'main',
     mounted() {
         // this.cargarUsers();
-        this.AgregarDiente();
+        // this.AgregarDiente();
     },
 
     data: {
@@ -353,7 +353,6 @@ new Vue({
             params.append('div_izq29', this.div_izq29);
             params.append('div_izq30', this.div_izq30);
             params.append('div_izq31', this.div_izq31);
-            params.append('comentario', this.comentario);
 
 
             axios.post('script/Proyecto/insertDientes.php', params)

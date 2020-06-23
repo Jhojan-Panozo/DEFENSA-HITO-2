@@ -1,3 +1,23 @@
+<?php
+//include_once 'Database.php';
+//session_start();
+//
+//if(isset($_POST['username']) && ($_POST['password']))
+//    $username=$_POST['username'];
+//    $password=$_POST['password'];
+//
+//    $db = new Database();
+//    $query = $db->con()->prepare('SELECT*FROM registro_u WHERE USUARIO = :username AND CONTRASENA = :password');
+//    $query->execute(['username' => $$username, 'password' => $password]);
+//    $row = $query->fetch(PDO::FETCH_NUM);
+//    if($row == true){
+//
+//    }else{
+//        echo "El usuario es incorrecto";
+//    }
+
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,7 +30,7 @@
 </head>
 <body>
 <div class="Loguin">
-    <div class="login-box">
+    <div class="login-box" action="#" method="POST">
         <h1>Login DR.</h1>
         <div class="textbox">
             <h5>USUARIO</h5>
